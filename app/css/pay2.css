@@ -1,0 +1,129 @@
+.zhezhao{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;right: 0;
+    margin: 0 auto;
+    z-index: 5;
+   /* display: flex;
+    align-items: flex-end;*/
+}
+.password-bigbox{
+    width: 7.5rem;
+    height: 8.23rem;
+    /*background: #bbc432;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-box{
+    width: 5.23rem;
+    height: 3.7rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+}
+.password-title-box{
+    width: 5.23rem;
+    height: 0.77rem;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: "iconfont";
+}
+.password-title1{
+    width: 4.75rem;
+    height: 0.77rem;
+    /*background: #c45da0;*/
+    font-size: 0.3rem;
+    color: #ffac13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.password-title2{
+    width: 5.23rem;
+    height: 0.77rem;
+    font-size: 0.28rem;
+    color: #ffac13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.password-title3{
+    width: 4.75rem;
+    height: 0.77rem;
+    /*background: #c45da0;*/
+    font-size: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gongshang{
+    color: #d41300;
+}
+.gongshang span{
+    color: #000000;
+}
+.password-title4{
+    width: 4.24rem;
+    height: 0.45rem;
+    /*background: #ff296f;*/
+    margin-top: 0.32rem;
+}
+.password-title4-top{
+    width: 4.24rem;
+    height: 0.38rem;
+    /*background: #e57141;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title4-top-item{
+    width: 0.5rem;
+    height: 0.38rem;
+    /*background: #feff47;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-title5{
+    width: 4.99rem;
+    height: 0.2rem;
+    /*background: #ff296f;*/
+    font-size: 0.2rem;
+    color: #8e8e8e;
+    font-family: "iconfont";
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.2rem;
+}
+.yuan{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #010101;
+}
+.password-title4-bottom{
+    width: 4.24rem;
+    height: 0.07rem;
+    /*background: #63ff49;*/
+    display: flex;
+    justify-content: space-between;
+}
+.title4-bottom-item{
+    width: 0.5rem;
+    height: 0.07rem;
+    background-color: #e5e5e5;
+    border-radius: 0.035rem;
+    z-index: 50;
+}
+.password-title4-bottom li.active{
+    background: #ffac13;
+}
+.key-box{
+    width: 7.48rem;
+    height: 5.11rem;
+}
+.key-box img{
+    width: 100%;
+}

@@ -1,0 +1,516 @@
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+.big-box{
+    width: 7.5rem;
+    height: 29rem;
+    background: #f2f2f1;
+}
+/*头部开始*/
+#header{
+    width: 100%;
+    height: 0.91rem;
+    background: #ffb20c;
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topBar-top{
+    width: 100%;
+    height: 0.35rem;
+    display: flex;
+    align-items: center;
+}
+.topBar-bottom{
+    width: 100%;
+    height: 0.42rem;
+}
+.searchBox{
+    width: 5rem;
+    height: 0.42rem;
+    background: #fff;
+    border-radius: 0.21rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.top-icon1{
+    width: 0.23rem;
+    height: 0.31rem;
+    margin:0 0.08rem;
+}
+.top-icon1 img{
+    width: 0.23rem;
+    height: 0.31rem;
+}
+.top-from{
+    width: 2.48rem;
+    height: 0.2rem;
+    color: #fff;
+    margin-left: 0.18rem;
+    font-size: 12px;
+}
+.top-scan{
+    padding:0 0.33rem;
+    height: 0.3rem;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+input:focus{
+    outline: none;
+}
+.input{
+    width: 3.93rem;
+    height: 0.25rem;
+    font-size: 12px;
+    border: none;
+    margin-left: 0.13rem;
+}
+/*头部结束*/
+/*轮播图开始*/
+.lunbo{
+    width: 7.5rem;
+    height: 3.25rem;
+    background: #fff;
+    box-shadow: 0 5px 20px #ff8800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.24rem auto 0.77rem;
+    position: relative;
+}
+.lunbo-img{
+    width: 7rem;
+    height: 3rem;
+    background: #ff6700;
+    position: absolute;
+    top: 0;
+    margin:0 auto;
+}
+.img-1{
+    width: 7rem;
+    height: 3rem;
+    background: #605751;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.img-1 img{
+    width: 7rem;
+    height: 3rem;
+}
+.dot{
+    width: 0.98rem;
+    height: 0.14rem;
+    position: absolute;
+    right: 0.38rem;
+    bottom: 0.51rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: 99;
+}
+.lunbo-img li.active{
+    z-index: 1;
+}
+.dot1{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #b0b0b0;
+    border-radius: 50%;
+}
+.dot li.active{
+    background:#ffb20c;
+}
+/*轮播图结束*/
+/*8个图标开始*/
+.eight{
+    width: 7.01rem;
+    height: 2.76rem;
+    /*background: blue;*/
+    margin: 0 auto;
+}
+.eight-image{
+    width: 7.01rem;
+    height: 2.68rem;
+}
+.eight-img{
+    width: 1.3rem;
+    height: 1.24rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0.225rem 0.18rem;
+    float: left;
+}
+.eight-img-1{
+    width: 1.01rem;
+    height: 1.01rem;
+    background-image: linear-gradient(63deg,
+    #ffb20c 0%,
+    #f8bc39 100%),
+    linear-gradient(0deg,
+            #db900d 0%,
+            #e9b70e 40%,
+            #f7de0f 100%);
+    border-radius: 0.4rem;
+    position: relative;
+}
+.eight-img-1 img{
+    width: 1.01rem;
+    height: 1.01rem;
+}
+.word{
+    width: 1rem;
+    height: 0.2rem;
+    font-size: 10px;
+    position: absolute;
+    right: 0.05rem;
+    top: 1.03rem;
+    text-align: center;
+}
+/*8个图标结束*/
+/*找优惠开始*/
+.prefern{
+    width: 7.03rem;
+    height: 3.81rem;
+    margin: 0.59rem auto 0;
+}
+.pre-name{
+    width: 0.75rem;
+    height: 0.24rem;
+    font-size:12px;
+    margin-bottom: 0.25rem;
+}
+.quantity{
+    width:100%;
+    height: 3.32rem;
+}
+.quantity-left img{
+    width: 3.4rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.quantity-left{
+    width: 3.4rem;
+    height: 100%;
+    margin-right: 0.24rem;
+    float: left;
+    position: relative;
+}
+.quantity-right-top{
+    width: 3.39rem;
+    height: 1.54rem;
+    float: right;
+    margin-bottom: 0.24rem;
+    position: relative;
+}
+.quantity-right-top img{
+    width: 3.39rem;
+    height: 1.54rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.quantity-right-bottom{
+    width: 3.39rem;
+    height: 1.54rem;
+    float: right;
+}
+.right-bottom-left{
+    width: 1.62rem;
+    height: 1.53rem;
+    float: left;
+}
+.right-bottom-left img{
+    width: 1.62rem;
+    height: 1.53rem;
+}
+.quantity-word{
+    width: 1.41rem;
+    height: 0.3rem;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+}
+/*找优惠结束*/
+/*限时抢购开始*/
+.limit{
+    width: 6.96rem;
+    height: 4.5rem;
+    margin: 0.59rem auto 0;
+    background: #fff;
+}
+.limit-title{
+    width: 100%;
+    height: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    font-size:18px;
+    position: relative;
+}
+.dot-left{
+    width: 0.32rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 2.02rem;
+}
+.dot-left-1{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.20rem;
+}
+.dot-left-2{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.20rem;
+}
+.head{
+    width: 100%;
+    height: 0.25rem;
+    margin-top: 0.28rem;
+    position: relative;
+}
+.proceed{
+    width: 0.99rem;
+    height: 0.25rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+}
+.time{
+    width: 100%;
+    height: 0.56rem;
+    margin-top: 0.21rem;
+}
+.time-1{
+    width: 0.47rem;
+    height: 0.56rem;
+    background: #fb93b5;
+    float: left;
+    margin:0 0.1rem;
+    font-size: 12px;
+    text-align: center;
+    line-height: 0.56rem;
+    color: #ff276e;
+    font-weight: 500;
+}
+.time-box{
+    width: 2.19rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.time span{
+    font-size: 14px;
+    float: left;
+    position: absolute;
+    top: 0.1rem;
+}
+.limit-bd{
+    width: 6.52rem;
+    height: 2.12rem;
+    margin: 0.25rem auto 0;
+    position: relative;
+}
+.limit-bd-left{
+    width: 3.15rem;
+    height: 2.12rem;
+    position: relative;
+}
+.limit-bd img{
+    width: 3.15rem;
+    height: 2.12rem;
+    float: left;
+}
+.img-word{
+    width: 1.29rem;
+    height: 0.52rem;
+    background: #ffb20c;
+    position: absolute;
+    bottom: 0.38rem;
+    left: 0.19rem;
+    border-radius: 0.26rem;
+    font-size: 10px;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #fff;
+}
+.img-w{
+    width: 1.29rem;
+    height: 0.52rem;
+    position: absolute;
+    top: 0.22rem;
+    left: 0.23rem;
+    border-radius: 0.26rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #fff;
+}
+/*限时抢购结束*/
+/*推荐商家开始*/
+.recommend{
+    width: 6.93rem;
+    height: 10.33rem;
+    margin: 0.2rem auto 0;
+}
+.recommend-title{
+    width: 1.5rem;
+    height: 0.3rem;
+    font-size: 14px;
+    line-height: 0.25rem;
+}
+.sm-title{
+    width: 100%;
+    height: 0.2rem;
+    margin-top: 0.27rem;
+    display: flex;
+    justify-content: space-around;
+}
+.sort{
+    width: 1.2rem;
+    height: 0.2rem;
+    font-size: 8px;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    float: left;
+}
+.recommend-bd{
+    width: 100%;
+    height: 9.2rem;
+    margin: 0.33rem auto 0;
+}
+.recommend-bd-1{
+    width: 100%;
+    height: 2.15rem;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.bd-img{
+    width: 1.58rem;
+    height: 1.5rem;
+    margin:0.33rem 0.42rem;
+    float: left;
+}
+.bd-img img{
+    width: 1.58rem;
+    height: 1.5rem;
+}
+.bd-name1{
+    width: 3.5rem;
+    height: 0.3rem;
+    font-size: 12px;
+    font-weight: 500;
+    float: left;
+    margin-top: 0.13rem;
+    margin-left: 0.24rem;
+}
+.sm-jieshao{
+    width: 3.5rem;
+    height: 0.26rem;
+    margin-top: 0.25rem;
+    margin-left: 0.24rem;
+    float: left;
+}
+.star-img{
+    width: 0.27rem;
+    height: 0.26rem;
+    float: left;
+}
+.star-img img{
+    width: 0.27rem;
+    height: 0.26rem;
+}
+.star{
+    width: 0.38rem;
+    height: 0.26rem;
+    font-size: 6px;
+    float: left;
+    color: red;
+    line-height:0.26rem;
+    margin-left: 0.05rem;
+}
+.sale{
+    width: 1.5rem;
+    height: 100%;
+    font-size: 5px;
+    margin-left: 0.5rem;
+    line-height: 0.26rem;
+    float: left;
+}
+.border{
+    width: 3.5rem;
+    height: 0.32rem;
+    float: left;
+    margin: 0.23rem 0 0.16rem 0.24rem;
+}
+.border1{
+    width: 1rem;
+    height: 0.32rem;
+    border: 1px solid red;
+    font-size: 6px;
+    color: red;
+    text-align: center;
+    line-height: 0.32rem;
+    border-radius: 0.05rem;
+    float: left;
+}
+/*推荐商家结束*/
+/*底部开始*/
+.footer{
+    width: 100%;
+    height: 0.88rem;
+    background: #fff;
+    float: left;
+    margin-top: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+.footer-li{
+    width: 5.52rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bd-1{
+    width: 0.5rem;
+    height: 100%;
+    float: left;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;*/
+}
+.footer-img{
+    width: 0.5rem;
+    height: 0.54rem;
+    /*background: #000;*/
+    float: left;
+    margin: 0.05rem 0;
+}
+.footer-img img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.03rem;
+}
+
+/*底部结束*/

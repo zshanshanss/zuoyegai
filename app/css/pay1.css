@@ -1,0 +1,93 @@
+.zhezhao{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;right: 0;
+    margin: 0 auto;
+    z-index: 5;
+    display: flex;
+    align-items: flex-end;
+}
+.pay-box{
+    width: 7.5rem;
+    height: 6.69rem;
+    background: #ffffff;
+}
+.pay-title-box{
+    width: 7.5rem;
+    height: 1rem;
+    /*background: #c45da0;*/
+    border-bottom: 1px dashed #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+.pay-title{
+    width: 7.01rem;
+    height: 1.05rem;
+    /*background: #83c44e;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.3rem;
+}
+.guanbi{
+    font-family: "iconfont";
+}
+.pay-money-box{
+    width: 7.5rem;
+    height: 5.68rem;
+    display: flex;
+}
+.pay-money-img{
+    width: 1.5rem;
+    height: 5.68rem;
+    /*background: #ff296f;*/
+    font-family: "iconfont";
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.qianbao{
+    color: #f088a9;
+}
+.huabei{
+    color: #1394d8;
+}
+.zhifubao{
+    color: #02bcef;
+}
+.weixin{
+    color: #01f07b;
+}
+.yinhangka{
+    color: #fc604a;
+}
+.pay-money-title{
+    width: 5.76rem;
+    height: 5.68rem;
+    /*background: #c45da0;*/
+}
+.money-title-item{
+    width: 5.76rem;
+    height: 1.136rem;
+    /*background: #bbc432;*/
+    color: #8c8c8a;
+    border-bottom: 1px dashed #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "iconfont";
+}
+.duihao{
+    color: #e9e9e9;
+    font-size: 0.28rem;
+}
+.money-title-item span.active{
+    color: #000000;
+}
+.money-title-item i.active{
+    color: #01f07b;
+}

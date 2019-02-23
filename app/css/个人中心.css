@@ -1,0 +1,202 @@
+/*头部开始*/
+.logo-touxiang {
+    width: 1rem;
+    height: 1rem;
+   /* background: #ffac13;*/
+    border-radius: 50%;
+    box-shadow:0 0 20px #ffd533;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-title-box2{
+    height: 1.49rem;
+   /* background: #83c44e;*/
+    font-size: 0.24rem;
+    color: #040404;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-title-box2 p{
+    margin-top: 3px;
+}
+.logo-title{
+    width: 3.91rem;
+    height: 0.25rem;
+    /*background: #ffac13;*/
+    display: flex;
+    justify-content: space-between;
+}
+.logo-title span{
+    width: 1.2rem;
+    height: 0.25rem;
+    /*background: #9fbdff;*/
+    font-size: 0.24rem;
+    line-height: 0.25rem;
+}
+.chaojivip{
+    width: 1.12rem;
+    height: 0.25rem;
+    background-color: #ffcb13;
+    border-radius: 0.1rem;
+    line-height: 0.25rem;
+}
+.chaojivip img{
+    width: 0.22rem;
+    height: 0.2rem;
+}
+.chaojivip span{
+    font-size: 0.18rem;
+    color: #ffffff;
+}
+.phone-box{
+    margin-top: 5px;
+    display: block;
+    float: left;
+    font-family: "iconfont";
+}
+    /*钱包开始*/
+.wallet-box{
+    width: 4.99rem;
+    height: 0.58rem;
+    /*background: #ffdbcb;*/
+    margin-top: 0.59rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.wallet-box span{
+    margin-top: 0.25rem;
+    opacity: 0.1;
+}
+.wallet1{
+    width: 0.5rem;
+    height: 0.58rem;
+   /* background: #bbc432;*/
+}
+.wallet1 p{
+    width: 0.5rem;
+    height: 0.22rem;
+   /* background: #eeeeee;*/
+    font-size: 0.24rem;
+    color: #f6d209;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.12rem;
+}
+.wallet1 span1{
+    width: 0.5rem;
+    height: 0.23rem;
+    /*background: #2b25ee;*/
+    font-size: 0.24rem;
+    color: #5a5a5a;
+}
+    /*钱包结束*/
+/*头部结束*/
+
+/*功能开始*/
+.function-box{
+    width: 7.5rem;
+    height: 8.21rem;
+    background-color: #eeeeee;
+    margin-top: 2.43rem;
+}
+.function-list{
+    width: 7.01rem;
+    height: 4.72rem;
+    /*background: #ffac13;*/
+    padding: 0.24rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.function-item{
+    width: 7.01rem;
+    height: 0.88rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.function-img{
+    width: 1.12rem;
+    height: 0.88rem;
+    /*background: #e6b6ff;*/
+    padding: 0.12rem 0.24rem;
+    display: block;
+}
+.function-img img{
+    width: 100%;
+}
+.function-title-box{
+    width: 5.89rem;
+    height: 0.88rem;
+    /*background: #c45da0;*/
+    display: flex;
+    align-items: center;
+}
+.function-title{
+    width: 5.89rem;
+    height: 0.25rem;
+    /*background: #c4bd6c;*/
+    line-height: 0.25rem;
+    padding-right: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.function-title-box p{
+    width: 1rem;
+    height: 0.25rem;
+   /* background: #9fbdff;*/
+    display: block;
+}
+.news{
+    width: 0.5rem;
+    height: 0.25rem;
+    background-color: #ff820b;
+    border-radius: 0.125rem;
+    font-size: 0.18rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.25rem;
+}
+.gengduo{
+    font-family: "iconfont";
+}
+/*功能结束*/
+/*底部栏开始*/
+/*#footer{
+    width: 7.5rem;
+    height: 0.98rem;
+    !* background: #9C2115;*!
+    margin: 0 auto;
+}
+.footer-img{
+    width: 7.5rem;
+    height: 0.59rem;
+    !*background: #83c44e;*!
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "iconfont";
+    font-size: 0.48rem;
+}
+.footer-img i.active{
+    color: #ffbf10;
+}
+.footer-title{
+    width: 7.5rem;
+    height: 0.39rem;
+    !*background: #c4be4a;*!
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    !* font-size: 0.48rem;*!
+}
+.footer-title li.active{
+    color: #ffb10e;
+}*/
+
+/*底部栏结束*/

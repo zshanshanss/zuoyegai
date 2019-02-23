@@ -1,0 +1,74 @@
+.zhezhao{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;right: 0;
+    margin: 0 auto;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-box{
+    width: 5.23rem;
+    height: 4.49rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+}
+.password-title-box{
+    width: 5.23rem;
+    height: 0.72rem;
+    /*background: #c45da0;*/
+    border-bottom: 1px solid #e5e5e5;
+}
+.password-title1{
+    width: 4.75rem;
+    height: 0.72rem;
+    font-size: 0.3rem;
+    color: #ffac13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.password-title2{
+    width: 5.23rem;
+    height: 0.72rem;
+    /*background: #c45da0;*/
+    font-size: 0.3rem;
+    color: #ffac13;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-title3{
+    width: 5.23rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "iconfont";
+    opacity: 0.6;
+}
+.zhiwen-box{
+    width: 1.34rem;
+    height: 1.74rem;
+    /*background: #83c44e;*/
+    text-align: center;
+}
+.zhiwen{
+    font-size: 1.34rem;
+}
+.zhiwen-box span{
+    font-size: 0.2rem;
+}
+.password-title4{
+    width: 4.75rem;
+    height: 0.2rem;
+   /* background: #3bd4ff;*/
+    display: flex;
+    justify-content: flex-end;
+    line-height: 0.2rem;
+    opacity: 0.6;
+}

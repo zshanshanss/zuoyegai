@@ -1,0 +1,143 @@
+.denglu-box{
+    width: 5.61rem;
+    height: 4.02rem;
+    /*background: #1209ff;*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.denglu1-box{
+    width: 5.61rem;
+    height: 3.62rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.denglu2-box{
+    width: 5.07rem;
+    height: 3.49rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    opacity: 0.41;
+    position: absolute;
+    top: 0.33rem;
+    /*margin-top: 0.89rem;*/
+}
+.denglu3-box{
+    width: 4.38rem;
+    height: 3.62rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    opacity: 0.42;
+    position: absolute;
+    top: 0.4rem;
+}
+.denglu1-content{
+    width: 4.03rem;
+    height: 2.85rem;
+    /*background: #1b26c4;*/
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "iconfont";
+}
+.denglu-btn{
+    background: #ffac13;
+}
+.denglu-btn>a{
+    color: #fff;
+}
+.denglu-btn>a:hover{
+    color: #89d7f3;
+}
+.title-box{
+    border-color: #ffac13;
+}
+.title-box-dian{
+    background: #ffac13;
+}
+.zhuce1-item4{
+    width: 4.03rem;
+    height: 0.2rem;
+   /* background: #c45da0;*/
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    opacity: 0.6;
+}
+.footer{
+    width: 3.96rem;
+    height: 1.7rem;
+    /*background: #ff296f;*/
+    position: absolute;
+    left: 1.77rem; bottom: 1.82rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-title{
+    width: 3.96rem;
+    height: 0.26rem;
+    /*background: #3bd4ff;*/
+    font-size: 0.28rem;
+    display: flex;
+    justify-content: center;
+}
+.dot-box{
+    width: 2.18rem;
+    height: 0.23rem;
+   /* background: #83c44e;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dot-box span{
+    color: #ffffff;
+}
+.dot1{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #ffb20c;
+}
+.dot2{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #ffb20c;
+}
+.footer-icon{
+    width: 3.96rem;
+    height: 0.8rem;
+   /* background: #f7ffbc;*/
+    display: flex;
+    justify-content: space-between;
+    font-family: "iconfont";
+
+}
+.qqback{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qq{
+    font-size: 0.4rem;
+    color: #559dff;
+}
+.weixin{
+    font-size: 0.43rem;
+    color: #0e9a33;
+}
+.zhifubao{
+    font-size: 0.5rem;
+    color: #0cb2ff;
+}

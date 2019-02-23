@@ -1,0 +1,257 @@
+/*头部开始*/
+.container{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 1px;
+    /*background: #5f5750;*/
+}
+#header{
+    width: 100%;
+    height: 1.72rem;
+    background: #ffac13;
+}
+.topbar{
+    width: 100%;
+    height: 0.83rem;
+    /*background: #ffac13;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar p{
+    font-size: 0.38rem;
+    color: #ffffff;
+}
+.fanhui-box{
+    width: 0.35rem;
+    height: 0.35rem;
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.35rem;
+    position: relative;
+    color: #ffac13;
+}
+.fanhui{
+    width: 0.13rem;
+    height: 0.23rem;
+    font-family: "iconfont";
+}
+.search-box{
+    width: 0.35rem;
+    height: 0.35rem;
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #ffac13;
+    position: absolute;
+    left: 6.32rem;
+    top: 0.245rem;
+}
+.search{
+    width: 0.13rem;
+    height: 0.23rem;
+    font-family: "iconfont";
+}
+.fenxiang-box{
+    width: 0.35rem;
+    height: 0.35rem;
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #ffac13;
+}
+.fenxiang{
+    width: 0.13rem;
+    height: 0.23rem;
+    font-family: "iconfont";
+}
+/*头部结束*/
+    /*logo开始*/
+.logo-box{
+    width: 7.02rem;
+    height: 1.49rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    display: flex;
+    box-shadow: 0.002rem 0.05rem 0.15rem 0rem
+    rgba(2, 2, 2, 0.17);
+}
+.logo-img {
+    width: 1.48rem;
+    height: 1.48rem;
+    /* background: #ffac13;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-img img{
+    width: 1rem;
+    height: 1rem;
+}
+.logo-title-box{
+    width: 5.54rem;
+    height: 1.49rem;
+    /*background: #bbc432;*/
+    display: flex;
+    align-items: center;
+}
+.logo-title-left{
+    width: 1.34rem;
+    height: 0.69rem;
+    /*background: #ff9e99;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo-title-p2{
+    color: #ff296f;
+}
+.logo-title-right{
+    width: 1.55rem;
+    height: 0.48rem;
+   /* background: #804eff;*/
+    font-size: 0.2rem;
+    color: #040404;
+    opacity: 0.8;
+}
+/*logo结束*/
+/*分类选择开始*/
+.class-box{
+    width: 4.53rem;
+    height: 0.57rem;
+    /*background: orange;*/
+    margin-top: 1.61rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.class-box-item{
+    width: 2.1rem;
+    height: 0.57rem;
+    background-color: #ffac13;
+    border-radius: 0.285rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class-box-item.active{
+    background-color: #ff296f;
+}
+.class-box-item span{
+    font-size: 12px;
+    color: #ffffff;
+}
+/*分类选择结束*/
+/*推荐商家开始*/
+.recommend-box{
+    width: 7.5rem;
+    height: 10.24rem;
+    background: #eeeeee;
+    margin-top: 0.5rem;
+}
+.recommend-title-p1{
+    width: 7.5rem;
+    height: 0.55rem;
+    /*background: #83c44e;*/
+    color: #ff296f;
+    text-align: center;
+    line-height: 0.55rem;
+    font-size: 16px;
+}
+.recommend-box li{
+    width: 7.02rem;
+    height: 2.05rem;
+    background: #ffffff;
+    margin-bottom: 0.24rem;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recommend-img{
+    width: 1.68rem;
+    height: 1.68rem;
+    /*background: #ffac13;*/
+}
+.recommend-img img{
+    width: 100%;
+}
+.recommend-title-box{
+    width: 4.75rem;
+    height: 1.71rem;
+    /* background: #2fbfc4;*/
+    position: relative;
+}
+.recommend-title-p2{
+    width: 4.75rem;
+    height: 0.45rem;
+    /* background: #ffac13;*/
+    font-size: 16px;
+    line-height: 0.45rem;
+}
+.recommend-xing{
+    width: 4.75rem;
+    height: 0.25rem;
+    /*background: #ff282f;*/
+    display: flex;
+}
+.recommend-xing img{
+    width: 1.08rem;
+    height: 0.25rem;
+    display: block;
+}
+.recommend-title-p3{
+    width: 3.49rem;
+    height: 0.25rem;
+    margin-left: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.recommend-title-p4{
+    width: 4.75rem;
+    height: 0.25rem;
+    /*background: #83c44e;*/
+    font-size: 10px;
+}
+.recommend-jian{
+    width: 4.13rem;
+    height: 0.21rem;
+    /*background: #f7ff7c;*/
+    margin-top: 0.26rem;
+    font-size: 8px;
+}
+.recommend-jian img{
+    width: 0.21rem;
+    height: 0.21rem;
+    display: block;
+    float: left;
+}
+.recommend-title-p5{
+    width: 3.74rem;
+    height: 0.21rem;
+    /*background: #9C2115;*/
+    margin-left: 0.18rem;
+    /*font-size: 8px;*/
+    float: right;
+    line-height: 0.21rem;
+}
+.recommend-jian-topm{
+    margin-top: 0.08rem;
+}
+.recommend-guwuche{
+    width: 0.6rem;
+    height: 0.6rem;
+    /*background: #142cff;*/
+    position: absolute;
+    bottom: 0.17rem;
+    right: 0;
+}
+.recommend-guwuche img{
+    width: 100%;
+}
+/*推荐商家结束*/

@@ -1,0 +1,200 @@
+html{
+    position: fixed;
+}
+.container{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 1px;
+    /*background: #5f5750;*/
+}
+.beijing{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: #145f15;
+    /*position: relative;*/
+}
+.beijing img{
+    width: 100%;
+}
+.zhezhao{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;right: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.denglu-btn{
+    width: 1.53rem;
+    height: 0.54rem;
+    background-color: #ffac13;
+    border-radius: 0.27rem;
+    font-size: 0.28rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.54rem;
+    position: absolute;
+    top: 0.59rem; right: 0.39rem;
+}
+.zhuce-box{
+    width: 5.61rem;
+    height: 4.58rem;
+    /*background: #1209ff;*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.zhuce1-box{
+    width: 5.61rem;
+    height: 4.16rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhuce1-content{
+    width: 4.03rem;
+    height: 3.22rem;
+    /*background: #1b26c4;*/
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "iconfont";
+}
+.zhuce1-item{
+    width: 4.03rem;
+    height: 0.5rem;
+   /* background: #c45da0;*/
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5rem;
+}
+.zhuce1-item i{
+    width: 0.5rem;
+    height: 0.5rem;
+    background:#ffac13;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wode{
+    font-size: 0.3rem;
+    color: #ffffff;
+}
+.title-box{
+    width: 3.27rem;
+    height: 0.47rem;
+    border-radius: 0.25rem;
+    border: solid 0.02rem #ffac13;
+    display: flex;
+    align-items: center;
+}
+.title-box input{
+    width: 2.6rem;
+    height: 0.4rem;
+    border: none;
+    outline: none;
+}
+.title-box-dianbox{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-box-dian{
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #ffac13;
+    border-radius: 50%;
+}
+.title{
+    width: 2.27rem;
+    height: 0.2rem;
+   /* background: #9fbdff;*/
+    font-size: 0.2rem;
+    opacity: 0.2;
+    line-height: 0.2rem;
+}
+.zhuce1-item2{
+    width: 4.03rem;
+    height: 0.55rem;
+   /* background: #c45da0;*/
+    display: flex;
+    justify-content: center;
+}
+.zhuce-btn{
+    width: 2.57rem;
+    height: 0.54rem;
+    background-color: #000000;
+    opacity: 0.6;
+    border-radius: 0.27rem;
+    color: #ffffff;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.54rem;
+}
+.zhuce2-box{
+    width: 5.07rem;
+    height: 3.49rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    opacity: 0.41;
+    position: absolute;
+    top: 0.89rem;
+    /*margin-top: 0.89rem;*/
+}
+.zhuce3-box{
+    width: 4.38rem;
+    height: 3.62rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    opacity: 0.42;
+    position: absolute;
+    top: 0.96rem;
+}
+/*zhuce2开始*/
+.title-box div.active{
+    opacity: 1;
+}
+.title-box i{
+    background: 0;
+}
+.jinggao{
+    color: red;
+}
+.zhuce1-item3{
+    width: 4.03rem;
+    height: 0.39rem;
+    /*background: #c45da0;*/
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.179rem;
+    color: red;
+    line-height: 0.39rem;
+}
+/*zhuce2结束*/
+/*zhuce3开始*/
+.duihao{
+    color: #32a01c;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title>div{
+    width: 0.07rem;
+    height: 0.07rem;
+    border-radius: 50%;
+    background: #000000;
+    margin-right: 0.09rem;
+}
+/*zhuce3结束*/
