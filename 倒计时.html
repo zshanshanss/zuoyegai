@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload=function () {
+            let daysEle=document.querySelector("#days");
+            let hoursEle=document.querySelector("#hours");
+            let minEle=document.querySelector("#minutes");
+            let secEle=document.querySelector("#seconds");
+            let target=new Date(2019,5,7,20,0,0).getTime();
+            function time() {
+                let now=Date.now();
+                let days=Math.floor((target-now)/(1000*60*60*24));
+                daysEle.innerHTML=days;
+                let hours=Math.floor((target-now)/(1000*60*60)%24);
+                hoursEle.innerHTML=hours;
+                let mins=Math.floor((target-now)/(1000*60)%60);
+                minEle.innerHTML=mins;
+                let sec=Math.floor((target-now)/(1000)%60);
+                secEle.innerHTML=sec;
+            }
+            time();
+            setInterval(time,1000);
+        }
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .d-bd{
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h3{
+            font-size: 25px;
+            color: red;
+            margin-top: 100px;
+        }
+        .t-bd{
+            font-size: 18px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="d-bd">
+    <h3>2019年高考倒计时</h3>
+    <div class="t-bd">
+        <span id="days">0</span>天
+        <span id="hours">0</span>时
+        <span id="minutes">0</span>分
+        <span id="seconds">0</span>秒
+    </div>
+</div>
+</body>
+</html>
